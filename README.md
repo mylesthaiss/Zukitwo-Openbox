@@ -3,7 +3,7 @@ Zukitwo Openbox
 
 A clean and modern theme for Openbox based on the Zukitwo GTK theme by lassekongo83.
 
-[![Screenshot](https://raw.github.com/mylesthaiss/Zukitwo-Openbox/master/Screenshot.png)]
+![Screenshot](https://raw.github.com/mylesthaiss/Zukitwo-Openbox/master/Screenshot.png)
 
 Requirements
 ============
