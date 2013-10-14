@@ -1,0 +1,129 @@
+#---------------------------------------------
+# TINT2 CONFIG FILE
+#---------------------------------------------
+
+#---------------------------------------------
+# BACKGROUND AND BORDER
+#---------------------------------------------
+
+# The whole row
+rounded = 0
+border_width = 1
+background_color = #d4d4d4 100
+border_color = #b8b8b8 100
+
+# Active taskbar item
+rounded = 0
+border_width = 1
+background_color = #c2c2c2 100
+border_color = #808080 100
+
+# Inactive taskbar items
+rounded = 0
+border_width = 1
+background_color = #d4d4d4 100
+border_color = #868686 100
+
+# Urgent taskbar items
+rounded = 0
+border_width = 1
+background_color = #d4d4d4 100
+border_color = #959595 100
+
+# Tooltip items
+rounded = 0
+border_width = 1
+background_color = #F5F5B5 100
+border_color = #BABA45 100
+
+#---------------------------------------------
+# PANEL
+#---------------------------------------------
+panel_monitor = 1
+panel_position = bottom center
+panel_size = 100% 30
+panel_margin = 0 0
+panel_padding = 2 0 2
+font_shadow = 0
+panel_background_id = 1
+panel_layer = top
+strut_policy = follow_size
+wm_menu = 1
+
+#---------------------------------------------
+# TASKBAR
+#---------------------------------------------
+taskbar_mode = single_monitor
+taskbar_padding = 2 3 3
+taskbar_background_id = 0
+
+#---------------------------------------------
+# TASKS
+#---------------------------------------------
+task_icon = 1
+task_text = 1
+task_width = 300
+task_centered = 0
+task_padding = 4 3
+task_font = sans 10
+task_font_color = #000000 100
+task_active_font_color = #000000 100
+task_iconified_font_color = #000000 100
+task_urgent_font_color = #000000 100
+task_background_id = 3
+task_active_background_id = 2
+task_iconified_background_id = 3
+task_urgent_background_id = 4
+#---------------------------------------------
+# SYSTRAYBAR
+#---------------------------------------------
+systray = 1
+systray_padding = 2 2 4
+systray_background_id = 0
+systray_icon_size = 0
+systray_sort = ascending
+
+#---------------------------------------------
+# CLOCK
+#---------------------------------------------
+time1_format = %a %e %b, %l:%M %P
+time1_font = sans 10
+#time2_format =
+#time2_font = sans 6
+clock_font_color = #000000 100
+clock_padding = 2 2
+clock_background_id = 0
+clock_tooltip = %e %B %Y
+clock_lclick_command = gsimplecal
+
+#---------------------------------------------
+# BATTERY
+#---------------------------------------------
+battery = 0
+battery_hide = 98
+battery_low_status = 2
+battery_low_cmd = notify-send "Battery low!"
+bat1_font = sans 8
+bat2_font = sans 6
+battery_font_color = #000000 100
+battery_padding = 2 2
+battery_background_id = 0
+
+#---------------------------------------------
+# TOOLTIP
+#---------------------------------------------
+tooltip = 1
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.7
+tooltip_hide_timeout = 0.3
+tooltip_background_id = 5
+tooltip_font_color = #000000 100
+tooltip_font = sans 10
+
+#---------------------------------------------
+# MOUSE ACTION ON TASK
+#---------------------------------------------
+mouse_middle = toggle
+mouse_right = close
+mouse_scroll_up = none
+mouse_scroll_down = none
