@@ -1,0 +1,80 @@
+# Sizes
+border.width: 					1
+padding.width: 					3
+padding.height: 				2
+window.handle.width: 				4
+window.client.padding.width: 			0
+window.client.padding.height: 			0
+
+# Window decorations
+window.*.grip.bg: 				Raised Solid
+window.*.handle.bg: 				Raised Solid
+window.*.grip.bg.color: 			#d4d4d4
+window.*.handle.bg.color: 			#d4d4d4
+
+#  Menu
+menu.overlap.x:					3
+menu.overlap.y:					0
+menu.separator.padding.width:			0
+menu.title.bg: 					Flat Solid
+menu.title.bg.color:				#d4d4d4
+menu.title.text.color: 				#6b6b6b
+menu.items.bg: 					Flat Solid
+menu.items.bg.color: 				#f7f7f7
+menu.items.text.color: 				#2c2c2c
+menu.items.disabled.text.color: 		#989494
+menu.items.active.bg:			 	Flat Solid
+menu.items.active.bg.color: 			#6496c9
+menu.items.active.text.color: 			#f5f5f3
+menu.border.color: 				#d6d6d6
+menu.separator.color: 				#d6d6d6
+
+# Window
+window.*.label.bg:				Parentrelative
+window.*.button.*.bg: 				Parentrelative
+window.*.border.color: 				#959595
+window.*.client.color: 				#d4d4d4
+window.*.title.separator.color: 		#d4d4d4
+window.*.title.bg: 				Flat Solid
+window.*.title.bg.color: 			#d4d4d4
+window.*.border.color: 				#6a6a6a
+
+# Active Window
+window.active.label.text.color: 		#6b6b6b
+window.active.button.hover.image.color: 	#2e2e2e
+window.active.button.pressed.image.color: 	#6b6b6b
+window.active.button.unpressed.image.color: 	#6b6b6b
+window.active.button.disabled.image.color:	#b3b3b3
+
+# Inactive Window
+window.inactive.title.bg.colorTo: 		#d4d4d4
+window.inactive.label.text.color: 		#b3b3b3
+window.inactive.button.*.image.color: 		#b3b3b3
+
+# OSD
+osd.border.width: 				1
+osd.border.color:  				#6a6a6a
+osd.bg: 					Flat Solid
+osd.bg.color: 					#d4d4d4
+osd.label.bg: 					Parentrelative
+osd.hilight.bg: 				Flat Solid
+osd.hilight.bg.color: 				#6496c9
+osd.unhilight.bg: 				Flat Solid
+osd.unhilight.bg.color: 			#f7f7f7
+osd.label.text.color: 				#202020
+osd.button.unpressed.bg: 			Flat Border
+osd.button.unpressed.bg.color: 			#e4e4e4
+osd.button.unpressed.*.border.color:		#a0a0a0
+osd.button.pressed.bg: 				Flat Border
+osd.button.pressed.bg.color: 			#6496c9
+osd.button.pressed.*.border.color: 		#85add5
+osd.button.focused.bg: 				Solid Border
+osd.button.focused.bg.color: 			#85add5
+osd.button.focused.*.border.color: 		#71889e
+
+# Fonts
+*.font: 					shadow=n
+
+# Text
+menu.title.text.justify: 			Center
+window.label.text.justify: 			Center
